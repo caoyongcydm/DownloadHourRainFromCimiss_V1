@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadHourRainFromCimiss_V1", "DownloadHourRainFromCimiss_V1\DownloadHourRainFromCimiss_V1.csproj", "{20013D53-6940-41D0-9DC5-8D25C73C427C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20013D53-6940-41D0-9DC5-8D25C73C427C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20013D53-6940-41D0-9DC5-8D25C73C427C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20013D53-6940-41D0-9DC5-8D25C73C427C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20013D53-6940-41D0-9DC5-8D25C73C427C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A8D0948-3C17-4C36-AC97-A07E079E7F23}
+	EndGlobalSection
+EndGlobal
