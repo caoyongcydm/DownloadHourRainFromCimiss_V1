@@ -14,7 +14,7 @@
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -33,6 +33,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CaoYong.Constants">
+      <HintPath>F:\程序源码\DLL\Confused\CaoYong.Constants.dll</HintPath>
+    </Reference>
+    <Reference Include="CaoYong.DataProc">
+      <HintPath>F:\程序源码\DLL\Confused\CaoYong.DataProc.dll</HintPath>
+    </Reference>
+    <Reference Include="CaoYong.DataType">
+      <HintPath>F:\程序源码\DLL\Confused\CaoYong.DataType.dll</HintPath>
+    </Reference>
+    <Reference Include="CaoYong.SimpleLog">
+      <HintPath>..\..\..\..\Documents\Visual Studio 2017\Projects\GetDataFromCmiss_V1\GetDataFromCmiss_V1\bin\Release\CaoYong.SimpleLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Ice">
+      <HintPath>..\..\..\..\Documents\Visual Studio 2017\Projects\GetDataFromCmiss_V1\GetDataFromCmiss_V1\Ice.dll</HintPath>
+    </Reference>
+    <Reference Include="music-client-v1.6.0">
+      <HintPath>..\..\..\..\Documents\Visual Studio 2017\Projects\GetDataFromCmiss_V1\GetDataFromCmiss_V1\music-client-v1.6.0.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
